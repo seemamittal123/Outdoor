@@ -303,12 +303,11 @@ a {
     width: 45px;
 }
 
-li {
+.value-list li {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 50%;
-    height: 35px;
 }
 
 .footer {

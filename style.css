@@ -241,11 +241,6 @@ a {
     margin-bottom: 30px;
 }
 
-.learn-btn {
-    margin-left: 200px;
-    font-weight: 700;
-}
-
 .border-line {
     width: 70px;
     margin-left: 250px;
@@ -331,10 +326,6 @@ a {
     line-height: 25px;
 }
 
-.event-btn {
-    margin-left: 150px;
-}
-
 .btn i {
     margin-left: 10px;
     font-weight: bold;
@@ -370,12 +361,6 @@ a {
     line-height: 30px;
 }
 
-.border-line-3 {
-    margin: 0;
-    width: 50px;
-    margin-bottom: 25px;
-}
-
 .destination-img img {
     border-radius: 5px;
     width: 350px;
@@ -392,7 +377,7 @@ a {
     width: 30%;
 }
 
-.destination-pera{
+.destination-pera {
     color: rgba(0, 0, 0, 0.679);
     font-size: 17px;
     margin-bottom: 50px;
@@ -405,7 +390,8 @@ a {
     line-height: 30px;
     gap: 10px;
 }
-.footer{
+
+.footer {
     opacity: 0.9;
     background-color: black;
     color: white;
@@ -414,4 +400,10 @@ a {
     line-height: 53px;
     font-size: 16.5px;
     word-spacing: 2px;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }

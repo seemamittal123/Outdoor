@@ -14,7 +14,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="../font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="./media.css">
 </head>
 
 <body>
@@ -34,6 +34,7 @@
                 </ul>
                 <a class="btn" style="padding: 0;" href="take action">take action</a>
             </div>
+            <button onclick="addList()" class="show-btn new-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
         </div>
         <div class="text-wraper">
             <div class="text">
@@ -64,8 +65,7 @@
             <p class="contact-pera"> 800-123-456</p>
             <p class="heading">Follow Us</p>
             <div class="icons-wraper">
-
-            </div> 
+            </div>
         </div>
     </div>
 
@@ -73,33 +73,9 @@
         <p class="footer-pera">123 Fifth Avenue, NY 10160, New York, USA | Phone: 800-123-456 | Email:
             contact@example.com</p>
         <p class="footer-pera">Copyright © 2025 Outdoor Adventure</p>
-    </div>
-    <script>
-        function task() {
-            let name = document.getElementById('input-box1').value;
-            let email = document.getElementById('input-box2').value;
-            let v1 = document.getElementById('requerd-box1');
-            let v2 = document.getElementById('requerd-box2');
-            if (name.length == 0) {
-                v1.innerText = 'This field is required';
-                v1.setAttribute('class', 'design');
-            }
-            else {
-                v1.innerText = '';
-                v1.removeAttribute('class');
-            }
-            if (email.length == 0) {
-                v2.innerText = 'This field is required';
-                v2.setAttribute('class', 'design');
-            }
-            else {
-                v2.removeAttribute('class');
-                v2.innerText = '';
-            }
-           
-        }
+    </div>       
+    <script src="script.js"></script>
 
-    </script>
 </body>
 
 </html>

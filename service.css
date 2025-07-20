@@ -324,10 +324,9 @@ a {
     margin-bottom: 25px;
 }
 
-li {
+.value-list li {
     display: flex;
     align-items: center;
-    height: 35px;
     gap: 20px;
 }
 
