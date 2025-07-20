@@ -1,0 +1,355 @@
+.show-btn {
+    display: none;
+}
+
+@media screen and (min-width:460px) and (max-width:500px) {
+
+    .show-btn {
+        display: block;
+        background-color: transparent;
+        color: white;
+        border: none;
+        font-size: 18px;
+        z-index: 999;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .list {
+        flex-direction: column;
+    }
+
+    .show {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 0;
+        width: 40%;
+        background-color: rgba(0, 0, 0, 0.45);
+        padding: 20px;
+    }
+
+}
+
+@media screen and (min-width:200px) and (max-width:460px) {
+    .show-btn {
+        display: block;
+        background-color: transparent;
+        color: white;
+        border: none;
+        font-size: 18px;
+        z-index: 999;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .list {
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+    .show {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 0;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.45);
+        padding: 20px;
+    }
+
+    .pera1 {
+        font-size: 16px;
+    }
+
+    .border-line {
+        width: 40px;
+        margin-left: 140px;
+    }
+
+    .pera2 {
+        font-size: 34px;
+    }
+
+    .image img {
+        width: 40px;
+    }
+
+    .sendler-text {
+        font-size: 18px;
+    }
+
+    .sendler-wraper {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .line {
+        position: static;
+        margin-left: 140px;
+        width: 120px;
+    }
+
+    .event-box-wraper {
+        padding: 30px;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .event-box {
+        width: 100%;
+    }
+
+    .destination-text {
+        width: 100%;
+    }
+
+    .destination-wraper {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .destination-pera {
+        margin-bottom: 20px;
+        padding: 0 30px;
+    }
+
+    .border {
+        margin-left: 150px;
+        width: 100px;
+    }
+
+    .explore-heading {
+        font-size: 22px;
+    }
+
+    .border-line-3 {
+        width: 50px;
+        margin-left: 0px;
+    }
+
+
+    .destination-img img {
+        width: 100%;
+    }
+
+    .destination-img {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+
+
+    .explore-wraper {
+        background-position: center left;
+        height: 500px;
+    }
+
+    .text-box-wraper {
+        width: 80%;
+        left: 30px;
+        top: 100px;
+    }
+
+    .menu .btn {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .pera {
+        font-size: 34px;
+    }
+
+    .mission-wraper {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .image-box {
+        width: 100%;
+    }
+
+    .mission-text {
+        width: 100%;
+    }
+
+    .mission-pera {
+        padding: 0 30px;
+    }
+
+    .value-wraper {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .value-box {
+        width: 95%;
+    }
+
+    .value-list li {
+        width: 100%;
+    }
+
+    .value-list {
+        padding: 20px;
+    }
+
+    .value-heading {
+        font-size: 22px;
+    }
+
+    .border-li {
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .advantage-heading {
+        font-size: 20px;
+    }
+
+    .advanture-wraper {
+        padding: 50px 0
+    }
+
+    .advantage-pera {
+        font-size: 14px;
+        line-height: 25px;
+        padding: 10px 20px;
+        margin: 0;
+    }
+
+    .bo {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .trip-sport-wraper {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .trip-box {
+        margin: 0;
+        width: 100%;
+    }
+
+    .what-why-wraper {
+        text-align: center;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px 10px;
+    }
+
+    .what-box {
+        width: 100%;
+    }
+
+    .contact-information-wraper {
+        flex-direction: column;
+    }
+
+    .heading-text {
+        font-size: 22px;
+    }
+
+    .contact-information-box1,
+    .contact-information-box2 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .new-btn {
+        width: 30px;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:1025px) {
+    .show-btn {
+        display: block;
+        background-color: transparent;
+        color: white;
+        border: none;
+        font-size: 18px;
+        z-index: 999;
+    }
+
+    .new-btn {
+        width: 30px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .list {
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+    .show {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 0;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.45);
+        padding: 20px;
+    }
+
+    .destination-img img {
+        width: 100%;
+    }
+
+    .destination-img {
+        flex-direction: column;
+        width: 100%;
+        padding: 50px;
+
+    }
+
+    .destination-wraper {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .destination-pera {
+        margin-bottom: 20px;
+        padding: 0 30px;
+    }
+
+    .destination-text {
+        width: 100%;
+    }
+
+    .event-box-wraper {
+        padding: 30px;
+    }
+
+    .line {
+        margin-left: 90px;
+    }
+
+    .border-line-3 {
+        margin: 0;
+    }
+
+    .explore-wraper {
+        background-position: center left;
+    }
+
+    .border {
+        width: 150px;
+        margin-left: 350px;
+    }
+}
